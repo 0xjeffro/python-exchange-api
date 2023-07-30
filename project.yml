@@ -15,7 +15,10 @@ packages:
           parameters: {}
           environment: {}
           annotations: {}
-          limits: {}
+          limits: {
+            memory: 512,
+            timeout: 2
+          }
     - name: okx
       shared: false
       environment: { }
@@ -30,4 +33,7 @@ packages:
           parameters: { }
           environment: { }
           annotations: { }
-          limits: { }
+          limits: {
+            memory: 512,
+            timeout: 2
+          }
