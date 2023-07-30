@@ -2,5 +2,5 @@
 
 set -e
 
-python3 -v
+python -v
 deactivate
