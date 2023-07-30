@@ -10,7 +10,7 @@ packages:
         - name: hello
           binary: false
           main: ""
-          runtime: python:default
+          runtime: python:3.9
           web: true
           parameters: {}
           environment: {}
@@ -28,7 +28,7 @@ packages:
         - name: account_balance
           binary: false
           main: ""
-          runtime: python:default
+          runtime: python:3.9
           web: true
           parameters: { }
           environment: { }
