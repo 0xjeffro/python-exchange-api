@@ -17,13 +17,13 @@ packages:
           environment: {}
           annotations: {}
           limits: {}
-    - name: account_balance
+    - name: okx
       shared: false
       environment: { }
       parameters: { }
       annotations: { }
       functions:
-        - name: balance
+        - name: account_balance
           binary: false
           main: ""
           runtime: python:default
