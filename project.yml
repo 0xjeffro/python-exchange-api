@@ -17,7 +17,7 @@ packages:
           annotations: {}
           limits: {
             memory: 512,
-            timeout: 2
+            timeout: 2000
           }
     - name: okx
       shared: false
@@ -35,5 +35,5 @@ packages:
           annotations: { }
           limits: {
             memory: 512,
-            timeout: 2
+            timeout: 2000
           }
