@@ -10,8 +10,9 @@ packages:
         - name: hello
           binary: false
           main: ""
-          runtime: python:3.9
+          runtime: python:default
           web: true
+          webSecure: false
           parameters: {}
           environment: {}
           annotations: {}
@@ -25,11 +26,38 @@ packages:
       parameters: { }
       annotations: { }
       functions:
-        - name: account_balance
+        - name: trading_account_balance
           binary: false
           main: ""
-          runtime: python:3.9
+          runtime: python:default
           web: true
+          webSecure: false
+          parameters: { }
+          environment: { }
+          annotations: { }
+          limits: {
+            memory: 512,
+            timeout: 2000
+          }
+        - name: trading_account_positions
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          webSecure: false
+          parameters: { }
+          environment: { }
+          annotations: { }
+          limits: {
+            memory: 512,
+            timeout: 2000
+          }
+        - name: trading_account_bills_archive
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          webSecure: false
           parameters: { }
           environment: { }
           annotations: { }

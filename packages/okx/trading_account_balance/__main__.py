@@ -1,5 +1,7 @@
 import okx.Account as Account
 
+# doc: https://www.okx.com/docs-v5/zh/#trading-account-rest-api-get-balance
+
 
 def main(args):
     apikey = args.get("apikey", None)
@@ -8,7 +10,7 @@ def main(args):
     if apikey is None or secretkey is None or passphrase is None:
         return {
             "body": {
-                "code": -1,
+                "functionCode": -1,
                 "message": "apikey or secretkey or passphrase is None"
             }
         }
@@ -20,7 +22,7 @@ def main(args):
 
         return {
             "body": {
-                "code": 0,
+                "functionCode": 0,
                 "message": "success",
                 "data": result
             }

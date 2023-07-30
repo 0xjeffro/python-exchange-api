@@ -1,0 +1,31 @@
+[
+  {
+    "apihost": "https://faas-sgp1-18bc02ac.doserverless.co",
+    "namespace": "fn-0cb9c5e3-19f5-461d-882c-94ecb99edd2e",
+    "packageVersions": {
+      "sample": {
+        "version": "0.0.7",
+        "digest": "e4a2720e87c619a56019f373ead5690d39813e0a319af5e91ec0aa0fc3604409"
+      }
+    },
+    "actionVersions": {
+      "okx/trading_account_balance": {
+        "digest": "9d916d825ae3e6342c55d450534a08ac2043b1c1470a7a4a4a8b126aa1fbc8ed",
+        "version": "0.0.4"
+      },
+      "okx/trading_account_bills_archive": {
+        "digest": "fd876ba3b90bdc2b48b7f536f95fd93199fae03b953494eafbced50a241ac90e",
+        "version": "0.0.1"
+      },
+      "okx/trading_account_positions": {
+        "digest": "b005968c650e8e4a7dcecddff96d9a0fdeb5fcb9cf62a159c25a95fec97fb78c",
+        "version": "0.0.3"
+      },
+      "sample/hello": {
+        "version": "0.0.7",
+        "digest": "ee30227e8b3fe7806cd75cb16d72aeac73dbfcc04b4720e911cad4cfe01c6627"
+      }
+    },
+    "webHashes": {}
+  }
+]
