@@ -18,7 +18,7 @@ def main(args):
         flag = "0"  # Production trading:0 , demo trading:1
         accountAPI = Account.AccountAPI(apikey, secretkey, passphrase, False, flag)
         result = accountAPI.get_account_bills_archive()
-        print(result)
+        # print(result)
 
         return {
             "body": {

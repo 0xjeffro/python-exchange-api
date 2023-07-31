@@ -1,12 +1,14 @@
-import okx.Account as Account
+import okx.Funding as Funding
 
-# doc: https://www.okx.com/docs-v5/zh/#trading-account-rest-api-get-positions
+# doc: https://www.okx.com/docs-v5/zh/#funding-account-rest-api-get-non-tradable-assets
 
 
 def main(args):
     apikey = args.get("apikey", None)
     secretkey = args.get("secretkey", None)
     passphrase = args.get("passphrase", None)
+    ccy = args.get("ccy", None)
+
     if apikey is None or secretkey is None or passphrase is None:
         return {
             "body": {
@@ -14,10 +16,17 @@ def main(args):
                 "message": "apikey or secretkey or passphrase is None"
             }
         }
+    elif ccy is None:
+        return {
+            "body": {
+                "functionCode": -1,
+                "message": "ccy is None"
+            }
+        }
     else:
         flag = "0"  # Production trading:0 , demo trading:1
-        accountAPI = Account.AccountAPI(apikey, secretkey, passphrase, False, flag)
-        result = accountAPI.get_positions()
+        accountAPI = Funding.FundingAPI(apikey, secretkey, passphrase, False, flag)
+        result = accountAPI.get_non_tradable_assets(ccy)
         # print(result)
 
         return {

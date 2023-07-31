@@ -65,3 +65,55 @@ packages:
             memory: 512,
             timeout: 2000
           }
+        - name: funding_account_currencies
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          webSecure: false
+          parameters: { }
+          environment: { }
+          annotations: { }
+          limits: {
+            memory: 512,
+            timeout: 2000
+          }
+        - name: funding_account_balances
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          webSecure: false
+          parameters: { }
+          environment: { }
+          annotations: { }
+          limits: {
+            memory: 512,
+            timeout: 2000
+          }
+        - name: funding_account_non_tradable_assets
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          webSecure: false
+          parameters: { }
+          environment: { }
+          annotations: { }
+          limits: {
+            memory: 512,
+            timeout: 2000
+          }
+        - name: funding_account_asset_valuation
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          webSecure: false
+          parameters: { }
+          environment: { }
+          annotations: { }
+          limits: {
+            memory: 512,
+            timeout: 2000
+          }

@@ -4,25 +4,41 @@
     "namespace": "fn-0cb9c5e3-19f5-461d-882c-94ecb99edd2e",
     "packageVersions": {
       "sample": {
-        "version": "0.0.7",
+        "version": "0.0.11",
         "digest": "e4a2720e87c619a56019f373ead5690d39813e0a319af5e91ec0aa0fc3604409"
       }
     },
     "actionVersions": {
-      "okx/trading_account_balance": {
-        "digest": "9d916d825ae3e6342c55d450534a08ac2043b1c1470a7a4a4a8b126aa1fbc8ed",
-        "version": "0.0.4"
-      },
-      "okx/trading_account_bills_archive": {
-        "digest": "fd876ba3b90bdc2b48b7f536f95fd93199fae03b953494eafbced50a241ac90e",
+      "okx/funding_account_asset_valuation": {
+        "digest": "583b665dc77fb9ce391bdfa901c006af5a7d531faaffed28ecc72ccf4d4d8823",
         "version": "0.0.1"
       },
-      "okx/trading_account_positions": {
-        "digest": "b005968c650e8e4a7dcecddff96d9a0fdeb5fcb9cf62a159c25a95fec97fb78c",
+      "okx/funding_account_balances": {
+        "digest": "6f650a5e045cb24a1b82e6b7ea38b80752c9dc88a16c2e612c43e29b53b20e45",
         "version": "0.0.3"
       },
+      "okx/funding_account_currencies": {
+        "digest": "98006926348481073198a77d420affe3bfedf33b2b5b2eec888d6c00bda60341",
+        "version": "0.0.4"
+      },
+      "okx/funding_account_non_tradable_assets": {
+        "digest": "92ad71522737785cd7c3cfa8779cf45fcb2f76b911a634ac5220dd39dfa20f3e",
+        "version": "0.0.2"
+      },
+      "okx/trading_account_balance": {
+        "digest": "e7bbaa1fac53b8c135306dc2b2b0205a34b16df5786bc65b977f09ef59509b66",
+        "version": "0.0.8"
+      },
+      "okx/trading_account_bills_archive": {
+        "digest": "765a4d1a982bc48f62215447037b1497b4a8c29a5bc6252b5cbb26e1b741bf3c",
+        "version": "0.0.5"
+      },
+      "okx/trading_account_positions": {
+        "digest": "b63f56066652e7c4317ebdf99c51f97a29d3546857ebcdd86132f6dad5cd8842",
+        "version": "0.0.7"
+      },
       "sample/hello": {
-        "version": "0.0.7",
+        "version": "0.0.11",
         "digest": "ee30227e8b3fe7806cd75cb16d72aeac73dbfcc04b4720e911cad4cfe01c6627"
       }
     },
