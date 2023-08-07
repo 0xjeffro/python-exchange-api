@@ -117,3 +117,16 @@ packages:
             memory: 512,
             timeout: 2000
           }
+        - name: trading_data_support_coin
+          binary: false
+          main: ""
+          runtime: python:default
+          web: true
+          webSecure: false
+          parameters: { }
+          environment: { }
+          annotations: { }
+          limits: {
+            memory: 512,
+            timeout: 2000
+          }
