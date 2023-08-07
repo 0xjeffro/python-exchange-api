@@ -1,7 +1,16 @@
 # python-exchange-api
 
-## Doc
-https://docs.digitalocean.com/products/functions/how-to/create-functions/
+## Description
+Python exchange APIs for digital ocean functions
+
+## Deploying to Digital Ocean
+
+DOC: https://docs.digitalocean.com/products/functions/how-to/create-functions/
+
+### Switch Namespace
+```
+doctl serverless connect python-exchange-namespace
+```
 
 ## Deploy
 ```
